@@ -14,7 +14,9 @@ else
 			exit 1
 		else
 			git add -A
-			git commit -m "$*";
+			git commit -m "$*"
+			git push
+			git status;
 		fi
 	fi
 fi
